@@ -1,0 +1,92 @@
+html, body{
+	height: 100%;
+}
+body{
+	overflow: hidden;
+}
+img{
+	margin:0;
+}
+.container.container-site {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+@media only screen and (min-width: 601px)
+  .container.container-site {
+    width: 90%;
+}
+@media only screen and (min-width: 993px)
+  .container.container-site {
+    width: 90%;
+}
+
+.navbar{
+	height:70px;
+	line-height: 70px;
+	font-size: 12px;
+	font-family: "Montserrat";
+	text-transform: uppercase;
+}
+.navbar-left{
+	text-align: left;
+}
+.navbar-center{
+	text-align: center;
+}
+.navbar-right{
+	text-align: right;
+}
+.logo{
+	font-size: 18px;
+	font-family: "Montserrat-Light";
+	padding: 0px;
+	display: inline;
+	background: black;
+	color: white;
+}
+.logo a{
+	color: white;
+}
+.product{
+	font-family: "Montserrat"
+}
+.product-image{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.product-image img{
+	width: 100%;
+	transition:all 0.2s ease;
+}
+.product-image img.hover{
+	transform:scale(1.4);
+	-moz-transform:scale(1.4);
+	-webkit-transform:scale(1.4);
+}
+.product-meta{
+	padding-left:10%;
+	padding-right:10%;
+	text-transform: uppercase;
+}
+.product-meta h3{
+	font-size: 26px;
+	letter-spacing: 4px;
+	line-height: 34px;
+}
+.product-meta a{
+	color: black;
+}
+.product-gallery{
+	padding-left:10%;
+	padding-right:10%;
+	margin-top: 100px;
+	transition:all 0.2s ease;
+}
+.product-gallery.hover{
+	margin-top: 30px;
+}
+.product-gallery img{
+	width: 100%;
+}
